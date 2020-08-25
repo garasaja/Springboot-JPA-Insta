@@ -14,6 +14,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import com.cos.instagram.domain.user.User;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -21,6 +22,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Follow {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
